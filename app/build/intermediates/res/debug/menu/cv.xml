@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Refresh -->
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="feedback"
+        android:showAsAction="never" />
+
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+        android:icon="@drawable/ic_action_help"
+        android:title="action_help"
+        android:showAsAction="never"/>
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="action_check_updates"
+        android:showAsAction="never" />
+
+</menu><!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/menu/cv.xml -->

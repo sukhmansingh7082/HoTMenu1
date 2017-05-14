@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TableLayout
+                android:layout_width="500sp"
+                android:layout_height="250sp"
+                android:layout_marginLeft="5sp">
+                <TableRow android:layout_marginLeft="10sp">
+
+
+                    <ImageView
+                        android:id="@+id/noodi"
+                        android:layout_width="340sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/nood"
+                        android:layout_marginLeft="10sp" />
+
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="500sp"
+                android:layout_height="250sp" >
+                <TableRow android:layout_marginLeft="10sp">
+
+
+                    <ImageView
+                        android:id="@+id/manch"
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/manc"
+                        android:layout_marginLeft="10sp" />
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="500sp"
+                android:layout_height="250sp" >
+
+                <TableRow android:layout_marginLeft="10sp">
+
+
+                    <ImageView
+                        android:id="@+id/sche"
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sc"
+                        android:layout_marginLeft="10sp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+<!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/layout/chin.xml -->

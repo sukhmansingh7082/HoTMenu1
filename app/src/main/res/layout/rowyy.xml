@@ -1,0 +1,45 @@
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+       <ImageView
+           android:id="@+id/icon"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:src="@drawable/paneerb"
+           android:maxWidth="80dp"
+           android:maxHeight="80dp" 
+           android:adjustViewBounds="true"/>
+
+       <TextView
+           android:id="@+id/textnam"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_toRightOf="@+id/icon"
+           android:text="Large Text"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/textquant"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textnam"
+           android:layout_centerVertical="true"
+           android:text="Medium Text"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/texttab"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_marginLeft="18dp"
+           android:layout_toRightOf="@+id/textquant"
+           android:text="Small Text"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout> 

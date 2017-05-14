@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sukhmans.hotmenu"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:screenOrientation="portrait">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:maxSdkVersion="21" android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:maxSdkVersion="21" android:name="android.permission.INTERNET"/>
+       <uses-permission android:maxSdkVersion="21" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="sukhmans.hotmenu.MainActivity"
+            android:label="@string/app_name" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           
+        </activity>
+         <activity
+            android:name=".splash"
+            android:label="@string/app_name" 
+            >
+          
+        </activity>
+           <activity
+            android:name=".Splash2"
+            android:label="@string/app_name" 
+            >
+         
+        </activity>
+         <activity
+            android:name=".Choice"
+            android:label="@string/app_name" 
+            >
+           
+        </activity>
+        <activity
+            android:name=".Punjab"
+            android:label="@string/app_name"></activity>
+             <activity
+            android:name=".Sabji"
+            android:label="@string/app_name"></activity>
+              <activity
+            android:name=".Roti"
+            android:label="@string/app_name"></activity>
+               <activity
+            android:name=".Rice"
+            android:label="@string/app_name"></activity> 
+             <activity
+            android:name=".Daal"
+            android:label="@string/app_name"></activity>
+                <activity
+            android:name=".Gujarati"
+            android:label="@string/app_name"></activity>
+                  <activity
+            android:name=".Chinese"
+            android:label="@string/app_name"></activity>
+                  <activity
+            android:name=".Sabjior"
+            android:label="@string/app_name"></activity>
+                     <activity
+            android:name=".Ordery"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".americano"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".feedback"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".gSab"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".gRice"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".gDaal"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>

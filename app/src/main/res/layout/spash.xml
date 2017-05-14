@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+<TableLayout 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+    <TableRow >
+         <ImageView
+        android:id="@+id/cook"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/l"
+        android:contentDescription="@null" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="80sp"
+             android:text="@string/hot" 
+             android:textSize="70sp"
+             android:textColor="#EA3E3E"
+            />
+   
+</TableRow>
+</TableLayout>
+
+<TextView
+    android:id="@+id/textnam"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:text="@string/we"
+    android:textSize="40sp" />
+
+<TextView
+    android:id="@+id/t"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:textSize="40sp"
+    android:text="@string/we2" />
+<TableLayout
+    android:layout_width="fill_parent"
+android:layout_height="60sp">
+    <TableRow>
+<TextView
+    android:id="@+id/name"
+    android:layout_width="120dp"
+    android:layout_height="40sp"
+    android:text="@string/nam"
+    android:textSize="40sp"
+ />
+
+<EditText
+    android:id="@+id/namo"
+    android:layout_width="250sp"
+    android:layout_height="60sp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:hint="Name">
+
+    <requestFocus />
+</EditText>
+</TableRow>
+</TableLayout>
+<TableLayout 
+      android:layout_width="wrap_content"
+android:layout_height="80sp" 
+android:layout_marginTop="80sp">
+<TableRow >
+    <TextView 
+        android:id="@+id/mobile"
+        android:layout_width="120dp"
+        android:layout_height="50sp"
+        android:text="@string/mob"
+        android:textSize="40sp"/>
+    <EditText 
+        android:id="@+id/mob" 
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Mobile number">
+      <requestFocus />
+</EditText>
+    </TableRow>
+    
+</TableLayout>
+
+<ImageButton
+    android:id="@+id/menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/p"
+    android:layout_marginLeft="100sp"
+    android:contentDescription="@null" />
+    
+</LinearLayout>

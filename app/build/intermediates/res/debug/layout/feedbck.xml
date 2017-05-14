@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="@drawable/fbbc">
+
+
+
+    <TextView
+        android:layout_width="90sp"
+        android:layout_height="40sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email:"
+        android:id="@+id/textView4"
+        android:singleLine="false"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="top" />
+
+
+
+    <TextView
+        android:layout_width="180sp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Feedback"
+        android:id="@+id/textView3"
+        android:textSize="40sp"
+        android:layout_marginLeft="-80sp"
+        android:layout_gravity="left" />
+
+
+
+    <EditText
+        android:layout_width="314dp"
+        android:layout_height="40sp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/mail"
+        android:layout_marginTop="45sp"
+        android:layout_marginLeft="-110sp"
+        android:hint="Your Email ID for new offers"
+        android:layout_gravity="top"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:layout_marginLeft="-400sp">
+<TableRow android:layout_marginLeft="45sp">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Comment"
+        android:textSize="40sp"/>
+</TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_marginLeft="45sp">
+            <EditText
+                android:id="@+id/comm"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:hint="Comment Here"></EditText>
+        </TableRow>
+        <TableRow android:layout_marginRight="50sp">
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="50sp"
+                android:text="Done"
+                android:alpha="0.9"
+                android:id="@+id/button"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="100sp"
+                android:layout_marginLeft="80sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/layout/feedbck.xml -->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/punjabiii" >
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+    <TableRow >
+    <Button
+        android:id="@+id/Sabji"
+        android:layout_width="250sp"
+        android:layout_height="100sp"
+        android:text="Sabji"
+        android:textSize="70sp" 
+        android:textColor="#FF0505"
+        android:background="@android:color/black"
+        android:layout_marginLeft="70sp"
+        />
+    </TableRow>
+</TableLayout>
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+    <TableRow >
+    <Button
+        android:id="@+id/Roti"
+        android:layout_width="450sp"
+        android:layout_height="100sp"
+        android:text="Roti" 
+        android:textColor="#FF4000"
+        android:textSize="60sp"
+        android:layout_marginLeft="70sp"
+        android:background="@android:color/black" />
+    </TableRow>
+</TableLayout>
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_marginTop="140sp">
+    <TableRow >
+    <Button
+        android:id="@+id/Rice"
+        android:layout_width="350sp"
+        android:layout_height="100sp"
+        android:text="Rice" 
+        android:textSize="60sp"
+        android:layout_marginTop="10sp"
+                   android:textColor="#8258FA" 
+             android:background="@android:color/black"
+             android:layout_marginLeft="67sp"
+      />
+    </TableRow>
+</TableLayout>
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+    <TableRow >
+    <Button
+        android:id="@+id/Daal"
+        android:layout_width="450sp"
+        android:layout_height="100dp"
+        android:text="Daal" 
+           android:textSize="60sp" 
+          
+           android:textColor="#2E2EFE"
+             android:background="@android:color/black"
+     />
+    </TableRow>
+</TableLayout>
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    <TableLayout 
+        android:layout_height="50sp"
+        android:layout_width="match_parent"
+        android:background="#000000">
+        <TableRow
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/textnam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="150sp" 
+                android:textSize="50sp"/>
+        </TableRow>
+    </TableLayout>
+<TableLayout 
+    android:layout_height="100dp"
+    android:layout_width="wrap_content">
+    <TableRow >
+         <ImageView
+        android:id="@+id/bhangra1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/punn" 
+        />
+
+         <Button
+             android:id="@+id/punjab"
+             android:layout_width="360dp"
+             android:layout_height="100dp"
+             
+
+android:text="Punjabi"
+android:textColor="#BA6838"
+android:textSize="30sp"
+android:background="@drawable/pun" />
+    </TableRow> 
+</TableLayout>
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guj"
+             />
+
+        <Button
+            android:id="@+id/guj"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:text="@string/guj"
+            android:alpha="0.9" 
+    
+
+android:textColor="#D1BEC4"
+android:textSize="30sp"
+
+
+android:background="@drawable/guju"
+android:shadowColor="#7766CC"
+android:shadowDx="3"
+android:shadowDy="-9"
+android:shadowRadius="0"
+/>
+            </TableRow>
+</TableLayout>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TableRow >
+       <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chin"
+        />
+
+       <Button
+      android:id="@+id/chino"
+
+android:text="Chinese"
+android:textColor="#262626"
+android:textSize="30sp"
+
+android:layout_width="360dp"
+android:layout_height="100dp"
+android:background="@drawable/butto"
+android:shadowColor="#A8A8A8"
+android:shadowDx="13"
+android:shadowDy="5"
+android:shadowRadius="2" />
+        
+    </TableRow>
+
+   
+</TableLayout>
+    
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pizza" />
+     
+       <Button
+           android:id="@+id/pizza"
+           android:layout_width="360dp"
+           android:layout_height="100dp"
+           android:text="Pizza"
+           android:alpha="0.9"
+           android:textColor="#D1BEC4"
+android:textSize="30sp"
+
+
+android:background="@drawable/pizz"
+android:shadowColor="#AB879E"
+android:shadowDx="3"
+android:shadowDy="-3"
+android:shadowRadius="0" />
+        
+    </TableRow>
+</TableLayout>
+<TableLayout
+ android:layout_width="match_parent"
+    android:layout_height="100dp"   >
+    <TableRow >
+<TextView
+    android:id="@+id/nHot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hot"
+    android:textSize="70sp"
+    android:textColor="#EA3E3E"
+    />
+</TableRow>
+</TableLayout>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"  >
+    <TableRow>
+        <TextView
+     android:id="@+id/nMenu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Menu!!"
+    android:textSize="70sp"
+    android:textColor="#EA3E3E"
+
+     android:layout_marginLeft="150sp" />
+        </TableRow>
+</TableLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/layout/choice.xml -->

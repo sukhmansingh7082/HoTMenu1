@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HoTMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hell">We would like to know more about you..</string>
+    <string name="menu">Menu</string>
+    <string name="pun">Punjabi</string>
+    <string name="guj">Gujarati</string>
+    <string name="chin">Chinese</string>
+    <string name="hot">HoTMenu</string>
+    <string name="we">We would like to know</string>
+       <string name="we2">       more about you..</string>
+          <string name="nam">Name:</string>
+             <string name="mob">Mob:</string>
+             <string name="to2">HoTMenu!</string>
+              <string name="to">to HotMenu</string>
+              <string name="don">Done</string>
+               <string name="tv_label">Quantity </string>
+    <string name="button_label">Show Prompt Dialog</string>
+            
+</resources>

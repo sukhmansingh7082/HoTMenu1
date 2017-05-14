@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000000">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TableLayout
+                android:layout_width="500sp"
+                android:layout_height="250sp" >
+                <TableRow >
+
+
+                    <ImageView
+                        android:id="@+id/matar"
+                        android:layout_width="400sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/grice" />
+
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="500sp"
+                android:layout_height="250sp" >
+                <TableRow android:layout_marginBottom="0dp">
+
+
+                    <ImageView
+                        android:id="@+id/basmati"
+                        android:layout_width="400sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/basric"
+                        android:layout_marginBottom="0dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/layout/grice.xml -->

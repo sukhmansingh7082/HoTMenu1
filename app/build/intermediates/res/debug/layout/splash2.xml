@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bck"
+    android:orientation="vertical" >
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/welcom"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:src="@drawable/logo2" 
+            android:contentDescription="@null"/>
+    
+     <TextView
+        android:id="@+id/well"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to" 
+        android:textSize="30sp"
+        android:textColor="#EA3E3E"
+       />
+
+     <ImageView
+         android:id="@+id/arr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/arrow" 
+         android:contentDescription="@null"/>
+
+     <TextView
+         android:id="@+id/name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" 
+         android:textSize="50sp"
+         android:layout_marginTop="40sp"
+         android:layout_marginLeft="-200sp"
+         />
+
+</TableRow>
+</TableLayout>
+<LinearLayout
+    android:layout_height="90sp"
+    android:layout_width="400sp"
+    android:layout_marginTop="120sp"
+    android:background="#FFFFFF">
+<TextView
+    android:id="@+id/maintitle"
+    android:layout_width="360sp"
+    android:layout_height="80sp"
+    android:text="@string/to2" 
+    android:textSize="70sp"
+    android:textColor="#EA3E3E"
+    android:layout_marginLeft="20sp"
+    android:layout_marginTop="20sp" />
+</LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/layout/splash2.xml -->

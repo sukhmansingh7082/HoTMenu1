@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\admin\AndroidstudioProjects\HoTMenu1\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\admin\AndroidstudioProjects\HoTMenu1\app\build\intermediates\pre-dexed\debug\mail-1ed943061be5c39631cf69e1f868582913c6c0e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidstudioProjects\HoTMenu1\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\admin\AndroidstudioProjects\HoTMenu1\app\build\intermediates\pre-dexed\debug\additionnal-afdbc9d38583a3e65a22610c45ce3dd560cd10ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidstudioProjects\HoTMenu1\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\admin\AndroidstudioProjects\HoTMenu1\app\build\intermediates\pre-dexed\debug\activation-6b337f772ad6dc7c8c44c311e17476941d298e3c.jar" />
+    </item>
+    <item
+        jar="C:\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\admin\AndroidstudioProjects\HoTMenu1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ec53463f0c6266568ff3d216ada6a9fc03ef4c2c.jar" />
+    </item>
+
+</items>

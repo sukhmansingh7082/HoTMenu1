@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">HoTMenu</string>
+    <string name="button_label">Show Prompt Dialog</string>
+    <string name="chin">Chinese</string>
+    <string name="don">Done</string>
+    <string name="guj">Gujarati</string>
+    <string name="hell">We would like to know more about you..</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hot">HoTMenu</string>
+    <string name="menu">Menu</string>
+    <string name="mob">Mob:</string>
+    <string name="nam">Name:</string>
+    <string name="pun">Punjabi</string>
+    <string name="to">to HotMenu</string>
+    <string name="to2">HoTMenu!</string>
+    <string name="tv_label">Quantity </string>
+    <string name="we">We would like to know</string>
+    <string name="we2">       more about you..</string>
+    <!-- From: file:/C:/Users/admin/AndroidstudioProjects/HoTMenu1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="custom" parent="@android:style/TextAppearance.Large">
+          <item name="android:typeface">monospace</item>
+    </style>
+</resources>
